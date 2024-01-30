@@ -1,0 +1,13 @@
+git init // initialize repo locally
+git status
+git add . // staging
+git commit -m "commit messagse" // local commit
+git config --global user.email "email addr"
+git config --global user.name "username"
+//set name and email for git to use when commit changes
+// omit --global to set identity only in this repository
+
+
+REMOTE REPOSITORY
+github,bitbucket,codecommit
+used in aws part 2
