@@ -11,3 +11,10 @@ git config --global user.name "username"
 REMOTE REPOSITORY
 github,bitbucket,codecommit
 used in aws part 2
+
+go to setting in github
+developers option/settings
+generate token for 1 day or 2 day on no expiry etc 
+copy this token which shown once only
+git remote set-url origin https://<copy token>@github.com/papawhiskey93/titanworknew.git
+
